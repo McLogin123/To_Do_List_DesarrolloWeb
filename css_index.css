@@ -14,6 +14,7 @@ body {
     text-align: center;
     font-size: 44px;
 }
+
 #container {
     display: flex;
     justify-content: center;
@@ -43,7 +44,7 @@ body {
     padding: 7px;
 }
 
-.note {
+.nota {
     display: flex;
     justify-content: center;
     margin: 10px;
@@ -58,7 +59,7 @@ body {
         font-size 0.5s; 
 }
 
-.note:hover {
+.nota:hover {
     color: #ffffff;
     background-color: #828d92;
     font-size: 24px;
