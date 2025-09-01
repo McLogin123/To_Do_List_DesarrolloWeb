@@ -14,4 +14,10 @@ BotonAgregar.addEventListener('click', () => {
         NotasContainer.appendChild(NotaDiv)
         NotaInput.value = '';
     }
+});
+
+NotasContainer.addEventListener('click', (borrar) => {
+    if (borrar.target.classList.contains('nota')) {
+        borrar.target.remove();
+    }
 })
